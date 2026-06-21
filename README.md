@@ -31,11 +31,11 @@ raw borrower data to a validated scoring model across three tools.
 | Tool | Purpose |
 |------|---------|
 | Microsoft Excel | Data cleaning, derived columns (ALR, FOIR, EMI), pivot analysis, scorecard |
-| MySQL 8.0 | SQL replication of all findings — GROUP BY, CASE WHEN, UNION ALL, subqueries |
+| MySQL | SQL replication of all findings — GROUP BY, CASE WHEN, UNION ALL, subqueries |
 | Power BI | Four-page interactive dashboard with DAX measures and calculated columns |
 
 ## Dataset
-- 30,000 rows | 20+ columns
+- 30,000 rows, 26+columns
 - Borrower attributes: Occupation, Annual Income, CIBIL Score, Net Worth, Existing Debt
 - Loan attributes: Loan Amount, Tenure, Total Repayment, Rate Environment
 - Target variable: Loan Status (Performing / Default NPA)
@@ -48,4 +48,4 @@ raw borrower data to a validated scoring model across three tools.
 4. **Scorecard Validation** — Risk tier distribution, NPA capture rate
 
 ## Author
-Sushant | Economics Honours, Delhi University | June 2026
+Sushant Kumar / June 2026
